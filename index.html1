@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nitya Global</title>
+  
+  <style>
+  body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+  color: #0a0a23;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #0a66c2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #004080;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #888;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Nitya Global</h1>
+      <p>Your trusted business partner</p>
+    </header>
+    
+    <main>
+      <img src="banner.jpg" alt="Nitya Banner" class="banner" />
+      <p>We are here to help you grow your business through smart digital solutions and professional services.</p>
+      <a href="https://wa.me/91XXXXXXXXXX" class="cta">Contact Us on WhatsApp</a>
+    </main>
+
+    <footer>
+      &copy; 2025 Nitya Global. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
